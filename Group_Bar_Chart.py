@@ -62,6 +62,7 @@ def test_group_bar_chart(chart_title='my chart title', col_groups=None, col_grou
     elif y_min is not None:
         ax.set_ylim(y_min)
 
+    plt.savefig('test.png')
     plt.show()
 
 
